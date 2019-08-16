@@ -1,5 +1,8 @@
 { annotations =
-    [] : List { mapKey : Text, mapValue : Text }
+    [] : List
+          { mapKey : Text
+          , mapValue : ./../types/io.k8s.apimachinery.pkg.apis.meta.v1.AnnotationValue.dhall
+          }
 , finalizers =
     [] : List Text
 , labels =
